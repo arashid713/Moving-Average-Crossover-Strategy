@@ -1,14 +1,14 @@
 # Moving-Average-Crossover-Strategy
 This project implements a basic Moving Average Crossover trading strategy using historical stock data. The strategy involves using two moving averages: a short-term moving average (SMA) and a long-term moving average. The strategy generates buy and sell signals based on the crossover of these moving averages.
 
-Features
+## Features
 
 Fetch historical stock data using yfinance
 Calculate short-term and long-term moving averages
 Generate buy and sell signals based on moving average crossovers
 Backtest the strategy to evaluate performance
 
-Usage
+## Usage
 
 Fetch Historical Data:
 Specify the stock ticker, start date, and end date.
