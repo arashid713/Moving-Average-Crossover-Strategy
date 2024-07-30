@@ -10,18 +10,18 @@ Backtest the strategy to evaluate performance
 
 ## Usage
 
-Fetch Historical Data:
-Specify the stock ticker, start date, and end date.
-Use yfinance to download the data.
-Calculate Moving Averages:
+1. Fetch Historical Data:
+- Specify the stock ticker, start date, and end date.
+- Use yfinance to download the data.
 
-Define the short-term and long-term windows.
-Calculate the moving averages for the closing prices.
-Generate Signals:
+2. Calculate Moving Averages:
+- Define the short-term and long-term windows.
+- Calculate the moving averages for the closing prices.
 
-Create buy signals when the short-term moving average crosses above the long-term moving average.
-Create sell signals when the short-term moving average crosses below the long-term moving average.
-Backtest the Strategy:
+3. Generate Signals:
+- Create buy signals when the short-term moving average crosses above the long-term moving average.
+- Create sell signals when the short-term moving average crosses below the long-term moving average.
 
-Simulate trading based on the generated signals.
-Calculate the portfolio value over time starting with an initial capital.
+4. Backtest the Strategy:
+- Simulate trading based on the generated signals.
+- Calculate the portfolio value over time starting with an initial capital.
